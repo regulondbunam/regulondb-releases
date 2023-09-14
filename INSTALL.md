@@ -1,35 +1,34 @@
-# [Software name]
+## How to install a local instance of RegulonDB
 
+## Required Software
+- Docker
+- Docker Compose
 
+## Installation Guide
 
-- ## Installation instructions
+Download or copy the content of the following [docker-compose.yml file](https://regulondbdata.ccg.unam.mx/docker/docker-compose.yml).
 
-[Describe installation instructions of the software.]
+Locate the file in a terminal and use the following command to get the images required from DockerHub: 
 
-1. Step 1
-Execute:
-
-```shell
-$ command
-```
-2. Step 2
-3. Step x
-
-```shell
-$ command
+```bash
+docker compose pull
 ```
 
+When the download is compleated, use the following command to start the RegulonDB instance:
+```bash
+docker compose up -d
+````
 
-- ### Expected Directory Structure 
+Your instance now is working on http://localhost:7000/ for the Web App or http://localhost:7000/graphql to use the RegulonDB GraphQL Playground. If you want to stop the instance locate the file in the terminal and use the following command:
+```bash
+docker compose down
+```
 
-[Directory structure after installation. It should be properly organised in sub-directories (for documentation, headers, source, etc.]
+## New Releases
+When a new version of the is released, you can use the Install Guide steps again deleting the previous version of the docker-compose.yml file or rewriting with the new content (or if the repo was cloned yo can only use the ```git pull``` command to update it)
 
-
-
-- ### Dependencies
-
-[All required or optional dependencies should be listed, including those by third parties (with references to their websites).]
-
-
-- ### Errors & Tips
-[Describe possible errors that can be occur during the installation software and their solution.]
+Then to release space for the new images, remove all the previous images using the following command:
+```bash
+docker system prune -a
+```
+**Warning:** This command will remove all the docker images in your computer, if you use docker for other images than the RegulonDB instance, please use the ```rmi``` command to remove the images one by one
