@@ -8,35 +8,29 @@
 
 [Why the software does things the way it does and why it was designed in the first place. What problems are solved by it. Links to publications and comparisons to similar software.]
 
-
-
-# System requirements
-
-[If the software does make high demand on particular resources, then this should be clearly advertised and explained.]
+# Minimal System Requirements
+- 8GB RAM
+- 60GB Storage
+- Docker
 
 # Install 
 
-[This may be described in a separate INSTALL file, but the README must then clearly state this.]
+See installation file in the repository 
 
-
-
-# Quick start
-
-[How the first task can be performed with the software, or, in the more extensive  documentation, a link to the quick start. Outlines how to quickly get started with the software using a basic yet practical example]
-
+[installation guide](https://github.com/regulondbunam/regulondb-releases/blob/master/INSTALL.md)
 
 
 # Project website 
 
-[Website where the software is described and allows users to obtain it as well as its documentation.]
+[ReguolonDB](https://regulondb.ccg.unam.mx/)
 
 # License
 
-[Defines the set of rules and conditions for people who want to use the software.]
+[Apache v2.0](https://github.com/regulondbunam/regulondb-releases/blob/master/LICENSE)
 
 # Support contact information
 
-[It should be clear where to go for support, for example a contact e-mail address]
+regulondb@ccg.unam.mx
 
 # Software quality checklist
 
@@ -45,58 +39,53 @@
 **Accessibility**
 
 - [ ] Unique DOI [identifier](http://....) (Please update identifier and link)
-- [ ] Version control system
+- [x] Version control system
 
 **Documentation**
 
-- [ ] README file
+- [x] README file
 
 **Learnability**
 
-- [ ] Quick start
+- [x] Quick start
 
 **Buildability**
 
-- [ ] INSTALL file
+- [x] INSTALL file
 
 **Identity**
 
-- [ ] Website
+- [x] Website
 
 **Copyright & Licensing**
 
-- [ ] LICENSE file
+- [x] LICENSE file
 
 **Portability**
 
-- [ ] Multiple platforms
-- [ ] Browsers
+- [x] Multiple platforms
+- [x] Browsers
 
 **Supportability**
 
-- [ ] E-mail address
-- [ ] Issue tracker
-- [ ] Slack
-- [ ] Gitter
+- [x] E-mail address
+- [X] Issue tracker
 
 **Analysability**
 
-- [ ] Source code structured
-- [ ] Sensible names
-- [ ] Coding standards - [style guides](http://google.github.io/styleguide/)
+- [X] Source code structured
+- [X] Sensible names
+- [X] Coding standards - [style guides](http://google.github.io/styleguide/)
 
 **Changeability**
 
-- [ ] CONTRIBUTING file
-- [ ] Code of Conduct file
-- [ ] Code changes, and their authorship, publicly visible
+- [X] CONTRIBUTING file
+- [X] Code of Conduct file
+- [X] Code changes, and their authorship, publicly visible
 
 **Reusability**
 
-- [ ] Source code set up in a modular fashion
+- [X] Source code set up in a modular fashion
 
-**Security & Privacy**
-
-- [ ] Passwords must never be stored in unhashed form
 
 
