@@ -1,4 +1,4 @@
-# [Software name]
+# ReguolonDB Application
 
 # Description
 
