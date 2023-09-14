@@ -5,10 +5,10 @@ authors:
     country: MX
     email: regulondb@ccg.unam.mx
     website: http://regulondb.ccg.unam.mx/
-date-released: YYYY-MM-DD
+date-released: 2023-09-22
 doi: []
 license: Apache-2.0
-repository-code: []
-title: [example: Components]
-url: []
-version: 1.1.0
+repository-code: https://github.com/regulondbunam/regulondb-releases
+title: RegulonDB Application
+url: https://github.com/regulondbunam/regulondb-releases
+version: 1.0.0
