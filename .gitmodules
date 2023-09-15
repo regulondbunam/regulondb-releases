@@ -1,0 +1,15 @@
+[submodule "RegulonDB-Browser"]
+	path = RegulonDB-Browser
+	url = https://github.com/regulondbunam/RegulonDB-Browser
+[submodule "RegulonDB-wdpservice"]
+	path = RegulonDB-wdpservice
+	url = https://github.com/regulondbunam/RegulonDB-wdpservice
+[submodule "RegulonDB-Datamarts"]
+	path = RegulonDB-Datamarts
+	url = https://github.com/regulondbunam/RegulonDB-Datamarts
+[submodule "GraphQL-api"]
+	path = GraphQL-api
+	url = https://github.com/regulondbunam/GraphQL-api
+[submodule "RegulonDBHT-ETL"]
+	path = RegulonDBHT-ETL
+	url = https://github.com/regulondbunam/RegulonDBHT-ETL
