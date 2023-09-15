@@ -13,3 +13,6 @@
 [submodule "RegulonDBHT-ETL"]
 	path = RegulonDBHT-ETL
 	url = https://github.com/regulondbunam/RegulonDBHT-ETL
+[submodule "ecocyc-extractor"]
+	path = ecocyc-extractor
+	url = https://github.com/regulondbunam/ecocyc-extractor
