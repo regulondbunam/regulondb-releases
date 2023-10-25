@@ -1,4 +1,4 @@
-# ReguolonDB Application
+# RegulonDB Database Appilcation
 
 # Description
 
