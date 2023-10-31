@@ -8,6 +8,11 @@
 
 [Why the software does things the way it does and why it was designed in the first place. What problems are solved by it. Links to publications and comparisons to similar software.]
 
+# Platforms
+- linux
+- arm64
+- v8
+
 # Minimal System Requirements
 - 8GB RAM
 - 60GB Storage
