@@ -14,6 +14,10 @@ Locate the file in a terminal and use the following command to get the images re
 docker compose pull
 ```
 
+> **_NOTE:_**  If you get the error *no configuration file provided: not found* add the file flag -f with the name **you saved** the docker compose file with, to the command.
+>> docker compose **-f .\regulondbdata-docker-compose.yml** pull
+
+
 When the download is compleated, use the following command to start the RegulonDB instance:
 ```bash
 docker compose up -d
